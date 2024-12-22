@@ -45,9 +45,6 @@ function Navbar({ className }: { className?: string }) {
           </button>
         </Menu>
       </div>
-      <div>
-        <menu></menu>
-      </div>
     </div>
   );
 }
