@@ -1,46 +1,39 @@
-import { clsx, type ClassValue } from "clsx"
-import { twMerge } from "tailwind-merge"
+import { clsx, type ClassValue } from "clsx";
+import { twMerge } from "tailwind-merge";
 
 export function cn(...inputs: ClassValue[]) {
-  return twMerge(clsx(inputs))
+  return twMerge(clsx(inputs));
 }
-
 
 export const projects = [
   {
-    title: "Stripe",
+    title: "No Sleep",
     description:
-      "A technology company that builds economic infrastructure for the internet.",
-    link: "https://stripe.com",
+      "Zenux Apps are available immediately and on demand. No waiting 30 seconds for containers to be spun up. Even on free tier.",
   },
   {
-    title: "Netflix",
+    title: "Worldwide",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
-    link: "https://netflix.com",
+      "Code is deployed to where you are. Smart caching helps you deliver the best performance globally.",
   },
   {
-    title: "Google",
+    title: "Match cost and value",
     description:
-      "A multinational technology company that specializes in Internet-related services and products.",
-    link: "https://google.com",
+      "Pay for what you use. Translate between cost and business value with consumption based pricing.",
   },
   {
-    title: "Meta",
+    title: "Roll forward, roll back",
     description:
-      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
-    link: "https://meta.com",
+      "Switch to different versions of your deployments with built in CI/CD for every app.",
   },
   {
-    title: "Amazon",
+    title: "Spike resistant",
     description:
-      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
-    link: "https://amazon.com",
+      "Up to 100 concurrent requests per second per app. Up to 10gb compute per request - thats 1TB per second of available compute.",
   },
   {
-    title: "Microsoft",
+    title: "Hyperscale",
     description:
-      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
-    link: "https://microsoft.com",
+      "Scale up and down instantly. 1GB serverless compute handles EACH individual request",
   },
 ];
